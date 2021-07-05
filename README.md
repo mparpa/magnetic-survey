@@ -37,3 +37,5 @@ The script requires the following functions (devel. by Texas Instrument):
 - Misc:
     -- `LDC1000_version.m`
 
+## Licence
+The main written by @mparpa is under GPL V3.0, the rest of the code is proprierty of Texas Instrument
