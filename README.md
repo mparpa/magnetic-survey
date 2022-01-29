@@ -11,8 +11,8 @@ For each element of the grid it must be taken 4 measures positioning the instrum
 The user is prompted to insert the size of the grid (rows and columns) and the `filename.txt` to save all the registered data into. Once the configuration part ends the user can start taking measures, with the possibility of accepting or rejecting the results (for instance if the instruments was not correctly placed). In all the cases the default answer is YES (this means that to enter yes it is just needed to press `ENTER`).
 
 At the beginning of the code there is the possibility to set a variable `ICODE = 0` or `ICODE = 1`. 
-`IF = 0`, the script produces only the value `L` without any saving or post processing.
-`IF = 1`, the script does all the above mentioned actions.
+If `ICODE == 0`, the script produces only the value `L` without any saving or post processing.
+If `ICODE == 1`, the script does all the above mentioned actions.
 
 ***Important: In order to function properly, it is needed to set the correct Serial port in `SFRC_Sensor_FUN.m`, see line 10 of the code***
 
